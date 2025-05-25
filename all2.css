@@ -48,14 +48,14 @@ table {
 }
 /* CSS RESET ↑  */
 
-/* padding: 10px; */
 
 .container{
-    width: 67.5vw;
+    max-width: 67.5vw;
     margin: 0 auto;
     padding-top: 80px;
     font-family: 'Roboto', 'Noto Sans TC', sans-serif;
     line-height: 1.5;
+    /* border: 5px solid black; */
 }
 
 /* 搜尋框框↓ */
@@ -86,7 +86,7 @@ table {
     display: inline-block;
     width: 416px;
     box-sizing: border-box;
-    padding: 10px;
+    padding-right: 15px;
     margin-bottom: 20px;
     margin-top: 30px;
 }
@@ -157,3 +157,22 @@ table {
 }
 
 
+@media(max-width: 767px){
+    .container{
+        max-width: 98vw;
+        padding-top: 64px;
+        margin-right: 12px;
+        margin-left: 12px;
+        /* border: 5px solid black; */
+    }
+
+    .search-bar{
+        width: 351px;
+    }
+
+    .content {
+        width: 95vw;
+    }
+}
+
+    
