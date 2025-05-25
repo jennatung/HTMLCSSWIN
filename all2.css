@@ -172,6 +172,7 @@ table {
 
     .content {
         width: 95vw;
+        padding-right: 0px;
     }
 }
 
